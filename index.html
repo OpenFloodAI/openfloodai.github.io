@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        @media screen and (prefers-reduced-motion: reduce) {
+            html {
+                scroll-behavior: auto;
+            }
+        }
         body {
             font-family: 'Montserrat', sans-serif;
         }
@@ -21,6 +29,9 @@
             text-align: center;
             width: 75%;
         }
+        #connect a{
+            margin: 0 15px;
+        }
     </style>
 </head>
 
@@ -30,7 +41,7 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="#">Home</a>
             <a class="p-2 text-dark" href="#">About</a>
-            <a class="p-2 text-dark" href="#">Connect</a>
+            <a class="p-2 text-dark" href="#connect">Connect</a>
             <a class="p-2 text-dark" href="https://github.com/OpenFloodAI">Contribute</a>
             <a class="p-2 text-dark" href="http://bit.ly/2mSDz5k" target="_blank">Community <i class="fab fa-slack-hash"></i></a>
         </nav>
@@ -46,6 +57,17 @@
             href="https://twitter.com/OpenFloodAI?ref_src=twsrc%5Etfw">Tweets by OpenFloodAI</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
+    <br>
+    <section class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="connect">
+        <h2>Connect</h2>
+        <p>
+            Connect with OpenFloodAI
+        </p><br>
+        <a target="_blank" href="https://twitter.com/OpenFloodAI"><i class="fab fa-twitter fa-2x text-dark"></i></a>
+        <a target="_blank" href="https://www.facebook.com/OpenFloodAI"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/company/openfloodai"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
+        <a target="_blank" href="https://github.com/OpenFloodAI"><i class="fab fa-github fa-2x text-dark"></i></a>
+    </section>
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
             <div class="col-3 col-md ml-4">
