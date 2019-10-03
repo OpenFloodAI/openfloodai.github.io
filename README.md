@@ -20,7 +20,7 @@ git clone https://github.com/<your-username>/openfloodai.github.io.git
 where you replace <your-username> by your Github username. You can find this link on clicking the green "Clone or download" button in your repo (in your account).
 
 
-## Create a New Branch
+### Create a New Branch
 ```
 cd openfloodai.github.io
 git branch <newbranch>
@@ -29,7 +29,7 @@ git checkout new-branch
 where you can replace <newbranch> by the name of the branch you'd like to create.
 This checks you out to the new branch.
 
-## Make your changes
+### Make your changes
 Fix the issues or contribute as you would like to, by making appropriate changes.
 Once you have made your changes, commit them as:
 ```
@@ -48,6 +48,3 @@ git push --set-upstream origin new-branch
 Once you have pushed your branch, navigate to the forked repository on your GitHub webpage and toggle to the branch you just pushed to see the changes you have made in-browser.
 
 At this point, it is possible to make a pull request to the original repository. Click on the Pull Request button which shows up at the top of your repo. Make sure your branch is mergeable.
-
-
-
