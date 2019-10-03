@@ -44,7 +44,7 @@ git push --set-upstream origin new-branch
 ```
 
 
-##Create pull request
+## Create pull request
 Once you have pushed your branch, navigate to the forked repository on your GitHub webpage and toggle to the branch you just pushed to see the changes you have made in-browser.
 
 At this point, it is possible to make a pull request to the original repository. Click on the Pull Request button which shows up at the top of your repo. Make sure your branch is mergeable.
