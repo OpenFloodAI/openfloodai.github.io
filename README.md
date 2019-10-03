@@ -1,3 +1,3 @@
 ## Welcome to OpenFloodAI
 
-**OpenFloodAI** is an open-source community dedicated & focused on research & developing solutions for Flood related issues.
+**OpenFloodAI** is a community of dedicated open-source enthusiasts strongly focused towards research and development regarding flood related issues. 
