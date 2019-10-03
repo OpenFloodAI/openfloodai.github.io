@@ -2,6 +2,7 @@
 
 **OpenFloodAI** is an open-source community dedicated & focused on research & developing solutions for Flood related issues.
 
+![GitHub issues](https://img.shields.io/github/issues/OpenFloodAI/openfloodai.github.io) ![GitHub forks](https://img.shields.io/github/forks/OpenFloodAI/openfloodai.github.io?style=social) ![GitHub stars](https://img.shields.io/github/stars/OpenFloodAI/openfloodai.github.io?style=social)
 
 ## How to contribute to openfloodai.github.io?**
 
