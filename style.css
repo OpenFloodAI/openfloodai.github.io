@@ -1,36 +1,49 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 @media screen and (prefers-reduced-motion: reduce) {
-  html {
-      scroll-behavior: auto;
-  }
+    html {
+        scroll-behavior: auto;
+    }
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 body,
 html {
-  height:100%;
-  width:100%;
-  scroll-behavior:smooth
+    height:100%;
+    width:100%;
+    scroll-behavior:smooth
 }
 
 .moveleft{
-  float:right;
+    float:right;
 }
 
 .middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
 }
 #connect a{
-  margin: 0 15px;
+    margin: 0 15px;
 }
 .title-section {
-  margin-bottom: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+footer{
+    display: flex;
+    height: 300px;
+    padding: 10px;
+    align-items: center;
+    content: center;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
 }
