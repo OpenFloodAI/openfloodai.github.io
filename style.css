@@ -1,36 +1,65 @@
 html {
-  scroll-behavior: smooth;
-}
-@media screen and (prefers-reduced-motion: reduce) {
-  html {
-      scroll-behavior: auto;
-  }
-}
-body {
-  font-family: 'Montserrat', sans-serif;
-}
-body,
-html {
-  height:100%;
-  width:100%;
-  scroll-behavior:smooth
+    scroll-behavior: smooth;
 }
 
-.moveleft{
-  float:right;
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth
+}
+
+.moveleft {
+    float: right;
 }
 
 .middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 75%;
 }
-#connect a{
-  margin: 0 15px;
+
+#connect a {
+    margin: 0 15px;
 }
+
 .title-section {
-  margin-bottom: 1.8em;
+    margin-bottom: 1.8em;
+}
+
+footer {
+    background: #24292E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+footer .footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .social-links a {
+    margin-left: 20px;
+}
+
+footer .footer-copyright {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    margin-top: 2em;
 }
