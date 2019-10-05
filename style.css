@@ -34,3 +34,20 @@ html {
 .title-section {
   margin-bottom: 1.8em;
 }
+
+#social-media-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px 10px;
+  border-top: 1px #21252969 solid;
+}
+#social-media-nav a{
+  margin: auto 8px;
+}
