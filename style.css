@@ -16,10 +16,6 @@ html {
   scroll-behavior:smooth
 }
 
-.moveleft{
-  float:right;
-}
-
 .middle {
   position: absolute;
   top: 50%;
@@ -33,4 +29,20 @@ html {
 }
 .title-section {
   margin-bottom: 1.8em;
+}
+
+.fa-facebook:hover {
+  color: #4267B2 !important;
+}
+
+.fa-twitter:hover {
+  color: #00acee !important;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8 !important;
+}
+
+.fa-github:hover {
+  color: black !important;
 }
