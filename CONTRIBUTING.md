@@ -22,12 +22,12 @@ You can contribute to this project for:
 
 3. Now you have your own remote copy of the project! Clone this remote repository to your machine so you'll have a local copy:
 
-`https://github.com/<Your_User_Name>/openfloodai.github.io
+   'https://github.com/<Your_User_Name>/openfloodai.github.io'
 
 4. Open up the code in a code editor (e.g Atom, Visual Studio Code, Sublime Text, Notepad... ;-> ). Resolve issue -> Add your meaningful
    contribution!
 
-5. Commit your changes from the root directory of the project (happy_hacktoberfest_19):
+5. Commit your changes from the root directory of the project (openfloodai.github.io):
    `git add .`
    `git commit -m "[Write a message that briefly explains the change you've made]"`
 
