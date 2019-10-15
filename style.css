@@ -60,8 +60,9 @@ header {
   text-decoration: underline;
 }
 
-.navbar-dark .navbar-toggler {
+.navbar-dark .navbar-toggler, .navbar-dark .navbar-toggler:focus, .navbar-dark .navbar-toggler:active {
   border: none;
+  outline: none;
 }
 
 .hero .main {
