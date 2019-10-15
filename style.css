@@ -46,12 +46,27 @@ html {
   color: #fff;
 }
 
-.hero .main {
+header {
   height: 100vh;
-  margin-top: -57px;
   background: url("./assets/images/hero-bg.png");
   background-position: center;
   background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+.navbar-dark .navbar-toggler {
+  border: none;
+}
+
+.hero .main {
+  height: 100vh;
+  margin-top: -57px;
   display: flex;
   align-items: center;
   justify-content: center;
