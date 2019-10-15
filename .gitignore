@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Basic Example to remove uncessary IDE changes
+
+# IntelliJ project files
+.idea
+.vs
+*.iml
+out
+gen
