@@ -1,10 +1,4 @@
-## Welcome to OpenFloodAI
-
-**OpenFloodAI** is an open-source project dedicated & focused on research & developing solutions for Flood related issues.
-
-![GitHub issues](https://img.shields.io/github/issues/OpenFloodAI/openfloodai.github.io) ![GitHub forks](https://img.shields.io/github/forks/OpenFloodAI/openfloodai.github.io?style=social) ![GitHub stars](https://img.shields.io/github/stars/OpenFloodAI/openfloodai.github.io?style=social)
-
-## How to contribute to openfloodai.github.io?**
+## How to contribute to openfloodai.github.io?
 
 ### Fork the repository
 Click on the Fork button at the top of the Github page in https://github.com/OpenFloodAI/openfloodai.github.io
@@ -12,7 +6,7 @@ Click on the Fork button at the top of the Github page in https://github.com/Ope
 This creates a copy(fork) of the repository in your Github account.
 
 ### Clone the repository
-To make your own local copy of the repository you would like to contribute to, in the terminal type:
+To make your own local copy of the repository you would like to contribute to, type in the terminal:
 
 ```
 git clone https://github.com/<your-username>/openfloodai.github.io.git
@@ -25,9 +19,9 @@ where you replace <your-username> by your Github username. You can find this lin
 ```
 cd openfloodai.github.io
 git branch <newbranch>
-git checkout new-branch
+git checkout <newbranch>
 ```
-where you can replace <newbranch> by the name of the branch you'd like to create.
+Where you can replace <newbranch> by the name of the branch you'd like to create.
 This checks you out to the new branch.
 
 ### Make your changes

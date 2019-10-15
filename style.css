@@ -1,23 +1,26 @@
 html {
   scroll-behavior: smooth;
 }
+
 @media screen and (prefers-reduced-motion: reduce) {
   html {
-      scroll-behavior: auto;
+    scroll-behavior: auto;
   }
 }
+
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-body,
-html {
-  height:100%;
-  width:100%;
-  scroll-behavior:smooth
+  font-family: "Montserrat", sans-serif;
 }
 
-.moveleft{
-  float:right;
+body,
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.moveleft {
+  float: right;
 }
 
 .middle {
@@ -28,26 +31,9 @@ html {
   text-align: center;
   width: 75%;
 }
-#connect a{
+#connect a {
   margin: 0 15px;
 }
 .title-section {
   margin-bottom: 1.8em;
-}
-
-#social-media-nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-#footer{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  padding: 20px 10px;
-  border-top: 1px #21252969 solid;
-}
-#social-media-nav a{
-  margin: auto 8px;
 }

@@ -1,76 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>OpenFloodAI</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-            <h5 class="my-0 mr-md-auto font-weight-normal">OpenFloodAI</h5>
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-dark" href="#">Home</a>
-                <a class="p-2 text-dark" href="#about">About</a>
-                <a class="p-2 text-dark" href="#connect">Connect</a>
-                <a class="p-2 text-dark" href="https://github.com/OpenFloodAI">Contribute</a>
-                <a class="p-2 text-dark" href="http://bit.ly/2mSDz5k" target="_blank">Community <i class="fab fa-slack-hash"></i></a>
-            </nav>
-        </div>
-        <div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-            <h2>Welcome to OpenFloodAI</h2>
-            <p>
-                OpenFloodAI is an open-source community dedicated & focused on research & developing <br> solutions for
-                Flood related issues.
-            </p>
+  <head>
+    <meta charset="utf-8" />
+    <title>OpenFloodAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div
+        class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow"
+      >
+        <h5 class="my-0 mr-md-auto font-weight-normal">OpenFloodAI</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2" href="#">Home</a>
+          <a class="p-2" href="#about">Projects</a>
+          <a class="p-2" href="#connect">Connect</a>
+          <a class="p-2" href="https://github.com/OpenFloodAI">Contribute</a>
+          <a class="p-2" href="http://bit.ly/2mSDz5k" target="_blank"
+            >Community <i class="fab fa-slack-hash"></i
+          ></a>
+        </nav>
+      </div>
+      <div class="text-center main">
+        <h2>
+          <span
+            class="typer"
+            id="header-typer"
+            data-words="Welcome to OpenFloodAI"
+            data-delay="100"
+            data-loop="false"
+          ></span>
+          <span
+            style="color: lightgray"
+            class="cursor"
+            data-owner="header-typer"
+            data-cursor-display="|"
+          ></span>
+        </h2>
+        <p>
+          <span
+            class="typer"
+            id="desc-typer"
+            data-words="OpenFloodAI is an open-source project dedicated & focused on research &
+            developing <br />
+            solutions for Flood related issues."
+            data-delay="50"
+            data-loop="false"
+          ></span>
+          <span
+            style="color: lightgray"
+            class="cursor"
+            data-owner="desc-typer"
+            data-cursor-display="|"
+          ></span>
+        </p>
+      </div>
+    </section>
 
-        </div>
-        <br>
-
-        <section class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="about">
-            <h2 class="title-section">About</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <div class="jumbotron jumbotron-fluid">
-                            <div class="container">
-                                <h3 class="display-5">OpenFloodAI-Web</h3>
-                                <p class="lead">Contribute to OpenFloodAI-Web</p>
-                                <a class="btn btn-dark" href="https://github.com/OpenFloodAI/openfloodai.github.io">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm">
-                        <div class="jumbotron jumbotron-fluid">
-                            <div class="container">
-                                <h3 class="display-5">OpenFloodAI-Android</h3>
-                                <p class="lead">Contribute to OpenFloodAI App</p>
-                                <a class="btn btn-dark" href="https://github.com/OpenFloodAI/OpenFloodAI-Android">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section
+      class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center about"
+      id="about"
+    >
+      <h2 class="title-section">Projects</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h3 class="display-5">OpenFloodAI-Web</h3>
+                <p class="lead">Contribute to OpenFloodAI-Web</p>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/OpenFloodAI/openfloodai.github.io"
+                  >Repository</a
+                >
+              </div>
             </div>
-        </section>
-
-        <section class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center" id="connect">
-                <a class="twitter-timeline" data-width="600" data-height="400"
-                    href="https://twitter.com/OpenFloodAI?ref_src=twsrc%5Etfw">Tweets by OpenFloodAI</a>
-                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </section>
-
-        <footer id="footer">
-                <span>Connect to OpenFloodAI</span>
-                <nav id="social-media-nav">
-                    <a target="_blank" href="https://twitter.com/OpenFloodAI"><i class="fab fa-twitter fa-2x text-dark"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/OpenFloodAI"><i class="fab fa-facebook fa-2x text-dark"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/company/openfloodai"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
-                    <a target="_blank" href="https://github.com/OpenFloodAI"><i class="fab fa-github fa-2x text-dark"></i></a>
-                </nav>
-        </footer>
-    </body>
-</html>
