@@ -4,73 +4,83 @@
     <meta charset="utf-8" />
     <title>OpenFloodAI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
+
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
-  </head>
+
+    <!-- Javascript Imports -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  </head>
   <body>
-    <section class="hero">
-      <div
-        class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow"
-      >
-        <h5 class="my-0 mr-md-auto font-weight-normal">OpenFloodAI</h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-          <a class="p-2" href="#">Home</a>
-          <a class="p-2" href="#about">Projects</a>
-          <a class="p-2" href="#connect">Connect</a>
-          <a class="p-2" href="https://github.com/OpenFloodAI">Contribute</a>
-          <a class="p-2" href="http://bit.ly/2mSDz5k" target="_blank"
-            >Community <i class="fab fa-slack-hash"></i
-          ></a>
-        </nav>
-      </div>
-      <div class="text-center main">
-        <h2>
-          <span
-            class="typer"
-            id="header-typer"
-            data-words="Welcome to OpenFloodAI"
-            data-delay="100"
-            data-loop="false"
-          ></span>
-          <span
-            style="color: lightgray"
-            class="cursor"
-            data-owner="header-typer"
-            data-cursor-display="|"
-          ></span>
-        </h2>
-        <p>
-          <span
-            class="typer"
-            id="desc-typer"
-            data-words="OpenFloodAI is an open-source project dedicated & focused on research &
-            developing <br />
-            solutions for Flood related issues."
-            data-delay="50"
-            data-loop="false"
-          ></span>
-          <span
-            style="color: lightgray"
-            class="cursor"
-            data-owner="desc-typer"
-            data-cursor-display="|"
-          ></span>
-        </p>
-      </div>
-    </section>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="navbar-brand">
+          <h5 class="my-0 mr-md-auto font-weight-normal">OpenFloodAI</h5>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#openFloodNavbar" aria-controls="openFloodNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="openFloodNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#about">Projects</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="#connect">Connect</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="https://github.com/OpenFloodAI">Contribute</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <a class="nav-link" href="http://bit.ly/2mSDz5k">Community <i class="fab fa-slack-hash"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="text-center main">
+          <h2>
+            <span
+              class="typer"
+              id="header-typer"
+              data-words="Welcome to OpenFloodAI"
+              data-delay="100"
+              data-loop="false"
+            ></span>
+            <span
+              style="color: lightgray"
+              class="cursor"
+              data-owner="header-typer"
+              data-cursor-display="|"
+            ></span>
+          </h2>
+          <p>
+            <span
+              class="typer"
+              id="desc-typer"
+              data-words="OpenFloodAI is an open-source project dedicated & focused on research &
+              developing <br />
+              solutions for Flood related issues."
+              data-delay="50"
+              data-loop="false"
+            ></span>
+            <span
+              style="color: lightgray"
+              class="cursor"
+              data-owner="desc-typer"
+              data-cursor-display="|"
+            ></span>
+          </p>
+        </div>
+      </section>
+    </header>
 
     <section
       class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center about"
