@@ -19,6 +19,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.btn {
+  transition: color 3s;
+}
+
 .moveleft {
   float: right;
 }
