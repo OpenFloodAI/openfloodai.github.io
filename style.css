@@ -48,7 +48,7 @@ html {
 
 header {
   height: 100vh;
-  background: url("./assets/images/hero-bg.png");
+  background: url("https://cdn.theatlantic.com/assets/media/img/photo/2012/08/monsoon-rain-floods-manila/m06_49967613/main_1200.jpg?1420515448");
   background-position: center;
   background-size: cover;
 }
@@ -79,14 +79,16 @@ header {
 }
 
 .about {
-  background: url("./assets/images/projects-bg.png");
+  background: url("https://cdn.theatlantic.com/assets/media/img/photo/2012/08/monsoon-rain-floods-manila/m19_20848689/main_1200.jpg?1420515455");
   background-position: center;
   background-size: cover;
   color: #fff;
+  background blend-mode: lighten;
 }
 
 .about .jumbotron {
   background: transparent;
   border: 1px solid #fff;
   border-radius: 5px;
+
 }
