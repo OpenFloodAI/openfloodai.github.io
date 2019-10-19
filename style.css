@@ -76,13 +76,46 @@ header {
   color: #fff !important;
 }
 
-.about {
-  background: linear-gradient(-45deg, #9740fe, #21d1ff);
-  color: #fff;
-}
 
 .about .jumbotron {
   background: transparent;
   border: 1px solid #fff;
   border-radius: 5px;
+}
+
+/* CARD */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px; 
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    box-shadow: 7px 6px 6px #d8d8d8;
+    /* color: black; */
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px #4183D7;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    /* color: #4183D7; */
+    /* font-size: 16px; */
+}
+
+.fa{
+     color:#4183D7;
 }
