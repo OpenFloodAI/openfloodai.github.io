@@ -48,9 +48,7 @@ html {
 
 header {
   height: 100vh;
-  background: url("./assets/images/hero-bg.png");
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(45deg, #8944b8, #df314c, #ffcd5e);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -79,9 +77,7 @@ header {
 }
 
 .about {
-  background: url("./assets/images/projects-bg.png");
-  background-position: center;
-  background-size: cover;
+  background: linear-gradient(-45deg, #9740fe, #21d1ff);
   color: #fff;
 }
 
